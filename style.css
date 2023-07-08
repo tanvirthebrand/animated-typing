@@ -106,20 +106,6 @@ b{
     animation: object2 6s linear infinite;
 }
 
-@keyframes object1{
-    50%{
-        left: -13%;
-        top: 41%;
-    }
-}
-
-@keyframes object2{
-    50%{
-        left: 35%;
-        top: 10%;
-    }
-}
-
 .cols{
     width: 50%;
 }
@@ -206,13 +192,6 @@ button:hover{
     animation: animateUser 4s linear infinite;
 }
 
-@keyframes animateUser{
-    50%{
-        right: 30px;
-        top: -90px;
-    }
-}
-
 .imgbox #splash{
     position: absolute;
     top: 50%;
@@ -224,10 +203,32 @@ button:hover{
 
 }
 
+#keyframes
+@keyframes animateUser{
+    50%{
+        right: 30px;
+        top: -90px;
+    }
+}
+
 @keyframes animate{
     50%{
         top: 49%;
         left: 51%;
         width: 155%;
+    }
+}
+
+@keyframes object1{
+    50%{
+        left: -13%;
+        top: 41%;
+    }
+}
+
+@keyframes object2{
+    50%{
+        left: 35%;
+        top: 10%;
     }
 }
